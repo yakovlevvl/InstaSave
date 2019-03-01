@@ -7,21 +7,57 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		11D74A0C1D1C302C86F00EBF /* Pods_InstaSave.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3122B4553EA8AE9253F1FE0 /* Pods_InstaSave.framework */; };
 		F557F9DD22289C1E006A9083 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557F9DC22289C1E006A9083 /* AppDelegate.swift */; };
-		F557F9DF22289C1E006A9083 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F557F9DE22289C1E006A9083 /* ViewController.swift */; };
-		F557F9E222289C1E006A9083 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F557F9E022289C1E006A9083 /* Main.storyboard */; };
 		F557F9E422289C20006A9083 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F557F9E322289C20006A9083 /* Assets.xcassets */; };
 		F557F9E722289C20006A9083 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F557F9E522289C20006A9083 /* LaunchScreen.storyboard */; };
+		F5A5708A2228AAEA00F73055 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570892228AAE900F73055 /* User.swift */; };
+		F5A5708C2228AAF400F73055 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5708B2228AAF300F73055 /* Post.swift */; };
+		F5A5708E2228AAF900F73055 /* InstaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5708D2228AAF900F73055 /* InstaService.swift */; };
+		F5A570902228AAFF00F73055 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5708F2228AAFF00F73055 /* SaveService.swift */; };
+		F5A570922228AB0A00F73055 /* VideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570912228AB0A00F73055 /* VideoView.swift */; };
+		F5A570942228AB0F00F73055 /* MuteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570932228AB0F00F73055 /* MuteButton.swift */; };
+		F5A570962228AB1500F73055 /* PlayPauseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570952228AB1500F73055 /* PlayPauseButton.swift */; };
+		F5A570982228AB1900F73055 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570972228AB1900F73055 /* RoundButton.swift */; };
+		F5A5709A2228AB2400F73055 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570992228AB2400F73055 /* MainVC.swift */; };
+		F5A5709C2228AB2A00F73055 /* PreviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5709B2228AB2A00F73055 /* PreviewVC.swift */; };
+		F5A570A42228AB5500F73055 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5709E2228AB5500F73055 /* Colors.swift */; };
+		F5A570A52228AB5500F73055 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A5709F2228AB5500F73055 /* Alert.swift */; };
+		F5A570A62228AB5500F73055 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570A02228AB5500F73055 /* Fonts.swift */; };
+		F5A570A72228AB5500F73055 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570A12228AB5500F73055 /* Device.swift */; };
+		F5A570A82228AB5500F73055 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570A22228AB5500F73055 /* Helper.swift */; };
+		F5A570A92228AB5500F73055 /* UIProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A570A32228AB5500F73055 /* UIProperties.swift */; };
+		F5A570AC2228AB9600F73055 /* Billabong.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5A570AB2228AB9600F73055 /* Billabong.ttf */; };
+		F5A570AE2228AB9C00F73055 /* Circe-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F5A570AD2228AB9C00F73055 /* Circe-Bold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C0E820027B907AAAFF750B4 /* Pods-InstaSave.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaSave.release.xcconfig"; path = "Target Support Files/Pods-InstaSave/Pods-InstaSave.release.xcconfig"; sourceTree = "<group>"; };
+		C3122B4553EA8AE9253F1FE0 /* Pods_InstaSave.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InstaSave.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEDA3BAC15DF830E7053EB02 /* Pods-InstaSave.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InstaSave.debug.xcconfig"; path = "Target Support Files/Pods-InstaSave/Pods-InstaSave.debug.xcconfig"; sourceTree = "<group>"; };
 		F557F9D922289C1E006A9083 /* InstaSave.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaSave.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F557F9DC22289C1E006A9083 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F557F9DE22289C1E006A9083 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F557F9E122289C1E006A9083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F557F9E322289C20006A9083 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F557F9E622289C20006A9083 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F557F9E822289C20006A9083 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A570892228AAE900F73055 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F5A5708B2228AAF300F73055 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		F5A5708D2228AAF900F73055 /* InstaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstaService.swift; sourceTree = "<group>"; };
+		F5A5708F2228AAFF00F73055 /* SaveService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		F5A570912228AB0A00F73055 /* VideoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoView.swift; sourceTree = "<group>"; };
+		F5A570932228AB0F00F73055 /* MuteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MuteButton.swift; sourceTree = "<group>"; };
+		F5A570952228AB1500F73055 /* PlayPauseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayPauseButton.swift; sourceTree = "<group>"; };
+		F5A570972228AB1900F73055 /* RoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		F5A570992228AB2400F73055 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		F5A5709B2228AB2A00F73055 /* PreviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewVC.swift; sourceTree = "<group>"; };
+		F5A5709E2228AB5500F73055 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F5A5709F2228AB5500F73055 /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		F5A570A02228AB5500F73055 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		F5A570A12228AB5500F73055 /* Device.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Device.swift; sourceTree = "<group>"; };
+		F5A570A22228AB5500F73055 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		F5A570A32228AB5500F73055 /* UIProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIProperties.swift; sourceTree = "<group>"; };
+		F5A570AB2228AB9600F73055 /* Billabong.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Billabong.ttf; sourceTree = "<group>"; };
+		F5A570AD2228AB9C00F73055 /* Circe-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Circe-Bold.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +65,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11D74A0C1D1C302C86F00EBF /* Pods_InstaSave.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D7D13A865FE0DD8A95BE1516 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EEDA3BAC15DF830E7053EB02 /* Pods-InstaSave.debug.xcconfig */,
+				1C0E820027B907AAAFF750B4 /* Pods-InstaSave.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F557F9D022289C1E006A9083 = {
 			isa = PBXGroup;
 			children = (
 				F557F9DB22289C1E006A9083 /* InstaSave */,
 				F557F9DA22289C1E006A9083 /* Products */,
+				D7D13A865FE0DD8A95BE1516 /* Pods */,
+				FC1905DC34C209037CDC9832 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +104,77 @@
 			isa = PBXGroup;
 			children = (
 				F557F9DC22289C1E006A9083 /* AppDelegate.swift */,
-				F557F9DE22289C1E006A9083 /* ViewController.swift */,
-				F557F9E022289C1E006A9083 /* Main.storyboard */,
+				F5A570872228AA8000F73055 /* Models */,
+				F5A570862228AA7000F73055 /* Views */,
+				F5A570882228AA8800F73055 /* Controllers */,
 				F557F9E322289C20006A9083 /* Assets.xcassets */,
 				F557F9E522289C20006A9083 /* LaunchScreen.storyboard */,
 				F557F9E822289C20006A9083 /* Info.plist */,
+				F5A570AA2228AB8800F73055 /* Fonts */,
+				F5A5709D2228AB3400F73055 /* Helpers */,
 			);
 			path = InstaSave;
+			sourceTree = "<group>";
+		};
+		F5A570862228AA7000F73055 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F5A570912228AB0A00F73055 /* VideoView.swift */,
+				F5A570932228AB0F00F73055 /* MuteButton.swift */,
+				F5A570952228AB1500F73055 /* PlayPauseButton.swift */,
+				F5A570972228AB1900F73055 /* RoundButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F5A570872228AA8000F73055 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5A570892228AAE900F73055 /* User.swift */,
+				F5A5708B2228AAF300F73055 /* Post.swift */,
+				F5A5708D2228AAF900F73055 /* InstaService.swift */,
+				F5A5708F2228AAFF00F73055 /* SaveService.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5A570882228AA8800F73055 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5A570992228AB2400F73055 /* MainVC.swift */,
+				F5A5709B2228AB2A00F73055 /* PreviewVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5A5709D2228AB3400F73055 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F5A570A22228AB5500F73055 /* Helper.swift */,
+				F5A5709E2228AB5500F73055 /* Colors.swift */,
+				F5A570A02228AB5500F73055 /* Fonts.swift */,
+				F5A570A12228AB5500F73055 /* Device.swift */,
+				F5A570A32228AB5500F73055 /* UIProperties.swift */,
+				F5A5709F2228AB5500F73055 /* Alert.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F5A570AA2228AB8800F73055 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				F5A570AD2228AB9C00F73055 /* Circe-Bold.ttf */,
+				F5A570AB2228AB9600F73055 /* Billabong.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		FC1905DC34C209037CDC9832 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3122B4553EA8AE9253F1FE0 /* Pods_InstaSave.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F557F9EB22289C20006A9083 /* Build configuration list for PBXNativeTarget "InstaSave" */;
 			buildPhases = (
+				455033A53D45B1F308C13864 /* [CP] Check Pods Manifest.lock */,
 				F557F9D522289C1E006A9083 /* Sources */,
 				F557F9D622289C1E006A9083 /* Frameworks */,
 				F557F9D722289C1E006A9083 /* Resources */,
+				A91AC94E8716F064266BCDA5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -122,20 +237,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A570AC2228AB9600F73055 /* Billabong.ttf in Resources */,
 				F557F9E722289C20006A9083 /* LaunchScreen.storyboard in Resources */,
+				F5A570AE2228AB9C00F73055 /* Circe-Bold.ttf in Resources */,
 				F557F9E422289C20006A9083 /* Assets.xcassets in Resources */,
-				F557F9E222289C1E006A9083 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		455033A53D45B1F308C13864 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-InstaSave-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A91AC94E8716F064266BCDA5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-InstaSave/Pods-InstaSave-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/VYAlertController/VYAlertController.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VYAlertController.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-InstaSave/Pods-InstaSave-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F557F9D522289C1E006A9083 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F557F9DF22289C1E006A9083 /* ViewController.swift in Sources */,
+				F5A570A62228AB5500F73055 /* Fonts.swift in Sources */,
+				F5A570982228AB1900F73055 /* RoundButton.swift in Sources */,
+				F5A570A42228AB5500F73055 /* Colors.swift in Sources */,
+				F5A5709A2228AB2400F73055 /* MainVC.swift in Sources */,
+				F5A570962228AB1500F73055 /* PlayPauseButton.swift in Sources */,
+				F5A570922228AB0A00F73055 /* VideoView.swift in Sources */,
+				F5A570A52228AB5500F73055 /* Alert.swift in Sources */,
+				F5A570A82228AB5500F73055 /* Helper.swift in Sources */,
+				F5A5708C2228AAF400F73055 /* Post.swift in Sources */,
+				F5A5709C2228AB2A00F73055 /* PreviewVC.swift in Sources */,
+				F5A570A72228AB5500F73055 /* Device.swift in Sources */,
+				F5A5708E2228AAF900F73055 /* InstaService.swift in Sources */,
+				F5A570902228AAFF00F73055 /* SaveService.swift in Sources */,
+				F5A5708A2228AAEA00F73055 /* User.swift in Sources */,
+				F5A570A92228AB5500F73055 /* UIProperties.swift in Sources */,
+				F5A570942228AB0F00F73055 /* MuteButton.swift in Sources */,
 				F557F9DD22289C1E006A9083 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +321,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F557F9E022289C1E006A9083 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F557F9E122289C1E006A9083 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F557F9E522289C20006A9083 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,11 +450,13 @@
 		};
 		F557F9EC22289C20006A9083 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDA3BAC15DF830E7053EB02 /* Pods-InstaSave.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44RWYRHXW5;
 				INFOPLIST_FILE = InstaSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,17 +464,19 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.InstaSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		F557F9ED22289C20006A9083 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0E820027B907AAAFF750B4 /* Pods-InstaSave.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 44RWYRHXW5;
 				INFOPLIST_FILE = InstaSave/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +484,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yakovlev.InstaSave;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
