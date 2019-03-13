@@ -1,0 +1,16 @@
+PODS:
+  - VYAlertController (1.0.0)
+
+DEPENDENCIES:
+  - VYAlertController
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - VYAlertController
+
+SPEC CHECKSUMS:
+  VYAlertController: ddadbf4246cadff3453f30b59bd94fd5fbf3a30a
+
+PODFILE CHECKSUM: f5618686d7868d0d2e27cc527429179c0bb90725
+
+COCOAPODS: 1.6.0.beta.1
